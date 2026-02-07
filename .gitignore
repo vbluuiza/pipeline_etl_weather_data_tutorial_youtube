@@ -1,0 +1,69 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+venv/
+env/
+ENV/
+
+# Environment variables e credenciais
+.env
+.env.local
+.env.*.local
+config/.env
+config/*.env
+*.key
+*.pem
+credentials.json
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+*.sql
+
+# Logs
+*.log
+logs/
+
+# Airflow
+logs/
+airflow.db
+airflow.cfg
+webserver_config.py
+standalone_admin_password.txt
+
+# Dados temporários ou sensíveis
+data/temp/
+data/*.csv
+data/*.xlsx
+*.tmp
+/data
+/config
+
+# Backup files
+*.bak
+*.backup
+# Docker
+.docker/
+docker-compose.override.yml
+.dockerignore
+postgres-db-volume/
